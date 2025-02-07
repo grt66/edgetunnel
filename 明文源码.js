@@ -1,4 +1,11 @@
 
+function unusedFunction1() {
+    console.log("wuyong");  
+}  
+function unusedFunction2(param) {  
+    return param * 2;  
+}  
+
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
